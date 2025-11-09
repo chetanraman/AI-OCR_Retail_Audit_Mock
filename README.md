@@ -1,27 +1,41 @@
-# AI-Powered Retail Deployment Workflow
+# AI-OCR Retail Audit Workflow (Mock Project)
 
-## Problem
-Manual validation of store tech deployments leads to delays and human error.
+## 🧩 Problem
 
-## Solution
-Use OCR + GenAI to automate fixture verification and exception reporting.
+Retail deployment audits are often manual, slow, and error-prone. Verifying fixture installations across thousands of stores consumes valuable time and creates compliance risks.
 
-## Workflow
-1. Input: Image of store fixture
-2. OCR: Extract serial number & compliance tags
-3. GenAI: Match against deployment plan
-4. Output: Pass/fail + alert workflow
+## 🚀 Solution
 
-## Tools Referenced
-- Tesseract OCR
-- OpenAI GPT API
-- Python (mocked)
-- Pega Workflow Integration (conceptual)
+This mock project outlines an AI-driven OCR workflow to automate fixture validation during store tech deployments.
 
-## Business Impact
-- Reduce deployment audit errors by 40%
-- Save 3–5 hours per store rollout
-- Scalable across 10K+ deployments/year
+## 🔁 Workflow Overview
 
-## Author
-Chetan Raman – Lead BA / Associate PM | chetanraman.com
+1. **Input:** Store fixture image or scanned installation form  
+2. **OCR Layer:** Extract serial numbers, barcodes, or metadata using Tesseract  
+3. **GenAI Layer:** Validate against planned deployment configs (mocked with rule-based logic or OpenAI API)  
+4. **Workflow Engine:** Route pass/fail results via Pega (or BPM tool)  
+5. **Dashboard:** Aggregate audit KPIs (mocked via Tableau or Power BI)
+
+## 🛠️ Tools Referenced
+
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract)  
+- OpenAI GPT-4 (or rule engine mock)  
+- Pega BPM (conceptual)  
+- Tableau / Power BI (dashboarding)
+
+## 📈 Business Impact (Modeled)
+
+- Reduce audit cycle time by **40%**  
+- Eliminate manual errors across **15,000+ deployments/year**  
+- Enable **real-time compliance tracking** across 9 global regions
+
+## 💡 Why This Project
+
+This repo demonstrates how AI, OCR, and automation principles can be applied in enterprise deployment workflows — drawing from my experience leading Apple Retail deployment programs as a consultant at Infosys.
+
+## 🧑‍💼 About Me
+
+**Chetan Raman**  
+Lead Business Analyst / Associate PM / Technical Program Manager  
+🌐 [LinkedIn](https://www.linkedin.com/in/chetan-raman) | 💼 [chetanraman.com](https://chetanraman.com)
+
